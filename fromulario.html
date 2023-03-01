@@ -1,0 +1,54 @@
+<title>formulário</title>
+<link rel="shortcut icon" href="imagens/logo.redonda.png" type="image/x-icon">
+</head>
+<style>
+    * {
+        font-family: 'Times New Roman', Times, serif
+    }
+
+</style>
+<body style="background-color: white;">
+    <center>
+    <h1>Formulario de Degustação</h1>
+    <form action="formulario.php" autocomplete="on">
+    <p>O formulário abaxo deve ser preenchido com informações
+        veridicas, <br> para que local do lançamento, sejam validadas juntos com uma identificação com foto.</p>
+
+    <p><label for="inome">Nome: </label></p>
+    <input type="text" name="nome" id="inome" required minlength="5" placeholder="primeiro nome ou coposto" autocomplete="username">
+        
+    <p><label for="isobrenome">Sobrenome: </label></p>
+    <input type="text" name="sobrenome" id="isobrenome" required minlength="7" placeholder="ultimo nome" autocomplete="">
+
+    <p><label for="icomp"></label></p>
+
+    <p><label for="isen">Senha de Cadastro:</label></p>
+    <input type="password" name="sen" id="isen" required minlength="5" placeholder="5 digitos" autocomplete="current-password"> <p>
+        
+    <h2>informações sobre dia e local:</h2>
+    <label for="imes">Lançamento:</label>
+    <input type="month" name="mes" id="imes" value="2022-06"><p>
+
+    <label for="idia">Dia: </label>
+    <input type="date" name="dia" value="2022-06-16">
+
+    <p><br>Local a ser confirmado:</p>
+    
+    <p>
+        <input type="submit" value="Limpar">
+        <input type="submit" volue="Enviar">
+    </p>
+    </form>
+
+
+    <p><center>Inicial: <br>
+        <a href="index.html">Página Inicial</a></p></center>
+   
+
+</center>
+</body>
+</html>
+
+<!--     <center>
+        <iframe src="agendamento.html" frameborder="1" height="700" width="500"></iframe>        
+    </center> -->
