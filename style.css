@@ -1,0 +1,26 @@
+
+ /*> LINKS*/
+
+/*link não visitado*/
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+/*link já visitado*/
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+    
+/*mouse passa por cima*/
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+/*link ativo/selecionado*/
+a:active {
+    color: blue;
+     text-decoration: none;
+}
